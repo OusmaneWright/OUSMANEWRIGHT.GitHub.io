@@ -1,0 +1,19 @@
+
+body {
+-webkit-animation: colorchange 15s infinite;
+animation: colorchange 15s infinite;
+}
+@-webkit-keyframes colorchange {
+0%  {background:#4287f5}
+25%  {background:#42cbf5}
+50%  {background:#42f5c5}
+75%  {background:#42f578}
+100% {background:#75f542}
+}
+@keyframes colorchange {
+0%  {background:#b0f542}
+25%  {background:#f2f542}
+50%  {background:#f5d142}
+75%  {background:#f5ad42}
+100% {background:#f59542}
+}   
